@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
+gem 'bootstrap-sass', '2.1'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -20,7 +22,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 group :development, :test do
-  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'rspec-rails',  "2.12.0"
 end
 
 group :production do
